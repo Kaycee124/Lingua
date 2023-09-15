@@ -4,7 +4,7 @@ import {useState, useEffect} from 'react'
 import { useRouter } from 'next/navigation'
 import { useSearchParams } from 'next/navigation'
 
-const page = () => {
+const Page = () => {
   const router:any = useRouter();
   const searchParams = useSearchParams();
   const message = searchParams.get('message');
@@ -46,7 +46,7 @@ const page = () => {
       <strong className ="block font-medium text-gray-900 font-poppins"> Congratulations</strong>
 
       <p className ="mt-1 text-sm text-gray-700">
-        {message}. You'll be redirected in {count} seconds.
+        {message}. You&apos;ll be redirected in {count} seconds.
       </p>
 
       <div className ="mt-4 flex gap-2">
@@ -84,18 +84,8 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
 
 //function to get params from the link
 
-export const getServerSideProps = async (context:any) => {
-  const { params } = context;
-  const { redirect, message } = params;
-  return {
-    props: {
-      redirect,
-      message,
-    },
-  };
-};
 

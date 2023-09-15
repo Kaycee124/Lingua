@@ -24,7 +24,7 @@ const noWork = () => {
       <strong className ="block font-medium text-gray-900 font-poppins"> Welldone</strong>
 
       <p className ="mt-1 text-sm text-gray-700">
-        Your Changes have been saved. You'll be redirected in 5 seconds.
+        Your Changes have been saved. You&apos;ll be redirected in 5 seconds.
       </p>
 
       <div className ="mt-4 flex gap-2">

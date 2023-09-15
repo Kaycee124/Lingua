@@ -93,7 +93,7 @@ const Login = () => {
                             </div>
                         </form>
                         <div className="mt-12 text-sm font-display font-semibold text-gray-700 text-center">
-                            Don't have an account ? <Link href={"/auth/register"}><span className="cursor-pointer text-indigo-600 hover:text-indigo-800">Sign up</span></Link>
+                            Don&apos;t have an account ? <Link href={"/auth/register"}><span className="cursor-pointer text-indigo-600 hover:text-indigo-800">Sign up</span></Link>
                         </div>
                     </div>
         </div>
