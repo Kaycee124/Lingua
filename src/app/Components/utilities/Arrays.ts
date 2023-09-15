@@ -1,0 +1,22 @@
+export const Languages = [
+   { code: 'en', name: 'English', azureCode: 'en-US' },
+   { code: 'es', name: 'Spanish', azureCode: 'es-ES' },
+   { code: 'zh', name: 'Chinese', azureCode: 'zh-CN' },
+   { code: 'hi', name: 'Hindi', azureCode: 'hi-IN' },
+   { code: 'ar', name: 'Arabic', azureCode: 'ar-SA' },
+   { code: 'pt', name: 'Portuguese', azureCode: 'pt-BR' },
+   { code: 'bn', name: 'Bengali', azureCode: 'bn-IN' },
+   { code: 'ru', name: 'Russian', azureCode: 'ru-RU' },
+   { code: 'ja', name: 'Japanese', azureCode: 'ja-JP' },
+   { code: 'fr', name: 'French', azureCode: 'fr-FR' },
+   { code: 'de', name: 'German', azureCode: 'de-DE' },
+   { code: 'it', name: 'Italian', azureCode: 'it-IT' },
+   { code: 'ko', name: 'Korean', azureCode: 'ko-KR' },
+   { code: 'pl', name: 'Polish', azureCode: 'pl-PL' },
+   { code: 'tr', name: 'Turkish', azureCode: 'tr-TR' },
+   { code: 'sv', name: 'Swedish', azureCode: 'sv-SE' },
+   { code: 'nl', name: 'Dutch', azureCode:'nl-NL'},
+   { code:'fi',name:'Finnish',azureCode:'fi-FI'},
+   {code:'el',name:'Greek',azureCode:'el-GR'},
+   {code:'cs',name:'Czech',azureCode:'cs-CZ'}
+ ];

@@ -23,6 +23,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/Reaction", "src/app/Components/hooks/useAudioTranscribtion.jsx", "src/app/Components/utilities/Functions.js", "src/app/utilities/PageUtility.js"],
   "exclude": ["node_modules"]
 }
