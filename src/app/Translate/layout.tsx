@@ -1,7 +1,7 @@
 "use client";
 import React from 'react';
 import Navbar from '../Components/Header';
-import styles from  '../Translate/TransLayout.module.css';
+
 import { useState,  } from 'react';
 
 
